@@ -1,7 +1,7 @@
 const http=require('http')
 
 const express=require('express')
-const port=process.env.port
+const port=4500 || process.env.port
 const cors=require('cors')
 const socketIO=require('socket.io')
 const app=express();
